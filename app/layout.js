@@ -11,9 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <body className="bg-gray-50">
-        <AosInit /> {/* ini component client */}
-        <Navbar /> {/* navbar tetap */}
-        <div className="pt-20">{children}</div>
+        <AosInit />
+        <Navbar />
+        <main className="pt-15">{children}</main>
       </body>
     </html>
   );
