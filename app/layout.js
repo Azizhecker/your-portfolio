@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body className="bg-gray-50">
         <AosInit />
         <Navbar />
-        <main className="pt-15">{children}</main>
+        <main className="pt-24">{children}</main>
       </body>
     </html>
   );
